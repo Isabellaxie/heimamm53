@@ -1,10 +1,10 @@
 import VueRouter from 'vue-router'
 import Vue from 'vue'
 
-// import login from '../view/login/login.vue'
+import login from '@/view/login/login.vue'
 // import layout from '../view/home/layout.vue'
 
-import test from '@/view/test.vue'
+
 
 const originalPush = VueRouter.prototype.push
 VueRouter.prototype.push = function push(location) {
@@ -19,7 +19,7 @@ const router = new VueRouter({
         // },
         {
             path: "/",
-            component: test
+            component: login
         },
 
         // {

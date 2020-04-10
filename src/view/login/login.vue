@@ -1,6 +1,6 @@
 <template>
   <div>
-    12
+    我是login
   </div>
 </template>
 
