@@ -1,7 +1,7 @@
 <template>
   <div>
     我是app
-    <el-button type="primary"></el-button>
+
     <router-view></router-view>
   </div>
 </template>
